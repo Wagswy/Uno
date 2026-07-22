@@ -243,22 +243,15 @@
         // Go to Firebase Console -> Project Settings -> Web App to get these values
         // Note: You must also go to Realtime Database -> Rules and set read/write to true!
         // =====================================================================
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "firebase/app";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-
-        // Your web app's Firebase configuration
         const firebaseConfig = {
-        apiKey: "AIzaSyB-2YK5exfWTNoKzgOv0L74ZpDK0HPaOuI",
-        authDomain: "unowagswy.firebaseapp.com",
-        projectId: "unowagswy",
-        storageBucket: "unowagswy.firebasestorage.app",
-        messagingSenderId: "185198536123",
-        appId: "1:185198536123:web:cb67057d09ff89dc6a109e"
+            apiKey: "AIzaSyB-2YK5exfWTNoKzgOv0L74ZpDK0HPaOuI",
+            authDomain: "unowagswy.firebaseapp.com",
+            databaseURL: "https://unowagswy-default-rtdb.firebaseio.com",
+            projectId: "unowagswy",
+            storageBucket: "unowagswy.firebasestorage.app",
+            messagingSenderId: "185198536123",
+            appId: "1:185198536123:web:cb67057d09ff89dc6a109e"
         };
-
-
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
